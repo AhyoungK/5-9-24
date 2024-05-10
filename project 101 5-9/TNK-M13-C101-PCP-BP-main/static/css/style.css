@@ -1,0 +1,214 @@
+/* Custom CSS styles go here */
+body {
+  background-color: #f8f9fa;
+  background-image: url('../assets/bg.png');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+  font-size: 14px;
+}
+
+.status-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.status-connected {
+    background-color: rgb(0, 243, 0);
+}
+
+.status-disconnected{
+    background-color: red;
+}
+
+.dropdown-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.dropdown-menu{
+  width: max-content;
+}
+
+.card-header{
+    background-color: rgba(118,55,190, 0.8);
+    color:white;
+}
+.card-rounded-span {
+    width: fit-content;
+    min-width: 70px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: rgba(93, 134, 158, 0.466);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.option-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-button>img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.transactionsContainer {
+    height: 200px;
+    overflow: scroll;
+}
+
+#card1, #card2{
+    overflow: hidden;
+    height: 90vh;
+}
+
+.list-group-item{
+  border: none;
+  background-color: #ffffff00;
+  color: #f8f9fa;
+  overflow-wrap: break-word;
+  width: inherit;
+}
+
+.list-group{
+    overflow: scroll;
+    border: none;
+    background-color: none;
+    height: 90vh;
+}
+
+.sidebar{
+    background-color: aqua;
+}
+
+/* Style for Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 5px;
+    /* Width of the vertical scroll bar */
+    height: 5px;
+    /* Height of the horizontal scroll bar */
+}
+
+​ ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scroll bar thumb */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.card{
+    background-color: rgba(193,128,221,0.5);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(57, 13, 77, 0.8);
+    overflow: hidden;
+}
+
+.card-body{
+    background-color: none;
+}
+
+.btn{
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #bbb !important;
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: #bc0ab8;
+}
+
+.dropdown-toggle, .btn-warning{
+    background-color: #621d97;
+}
+
+.btn-danger{
+   background-color: #8c2bdb;
+}
+
+.card-rounded-span{
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+#accountBalance{
+    background-color: #4e08a7;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid #bbb !important;
+    border-radius: 20px;
+}
+
+.bg-dark{
+    background-color: #4c037d!important;
+    border-bottom: 2px solid white;
+}
+
+.nav-tabs{
+    border-bottom: none;
+}
+
+.nav-link{
+    background-color: #c24ddf!important;
+    color: white!important;
+}
+
+.nav-link.active{
+   background-color: #892cd7!important;
+   border: none;
+   color: white!important;
+}
+
+.nav-item:nth-child(1){
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+.nav-item:nth-last-child(1){
+    border-right: 2px solid white !important;
+    border-bottom: 2px solid white!important;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.navbar-brand{
+    font-size: 16px;
+}
+
+.btn-dark{
+    background-color: #753186;
+}
+
+table {
+    border-radius: 1em;
+    overflow: hidden;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  th{
+    padding: 1em;
+    background: #892cd7;
+    border-bottom: 2px solid white; 
+  }
+  td{
+    padding: 1em;
+    background: rgba(139, 104, 179, 0.8);
+    border-bottom: 2px solid white; 
+    overflow: scroll;
+  }
+
+  td::-webkit-scrollbar {
+    display: none;
+  }
